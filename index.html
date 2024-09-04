@@ -1,0 +1,213 @@
+<!DOCTYPE html> <!-- Declara o tipo de documento -->
+<html lang="pt-br"> <!-- Início do documento HTML com a língua definida -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidade com Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a visualização para dispositivos móveis -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mini TCC</title> <!-- Título da página -->
+</head>
+<body>
+
+    <header>
+        <nav class="texto">
+            <a href="index.html">Inicio</a>|
+            <a href="#aprender">Aprender</a>|
+            <a href="#equipe">Equipe</a>|
+            <a href="#formulario">Formulário</a>|
+        </nav>
+    </header><br>
+    <hr>
+    <!-- Aqui começa o corpo da página onde o conteúdo aparece -->
+        <h1  id="topo" class="texto">Mini TCC - Estruturas HTML</h1> <!-- Define um título principal -->
+        <p>Isso é um parágrafo. Nele você escreve seus textos.</p> <!-- Um simples parágrafo -->
+
+        </br> <!--Essa tag serve para quebrar/pular uma linha-->
+
+            <ul> <!-- Lista não ordenada -->
+                <li>Item 1 - Pizza</li> <!-- Primeiro item -->
+                <li>Item 2 - Hambúrguer</li> <!-- Segundo item -->
+            </ul>
+            
+            <ol> <!-- Lista ordenada -->
+                <li>Primeiro lugar - Pizza</li> <!-- Primeiro item da lista ordenada -->
+                <li>Segundo lugar - Sushi</li> <!-- Segundo item da lista ordenada -->
+            </ol>
+        </br>
+
+        <hr> <!--Essa tags faz uma linha horizontal na sua pagina de uma ponta a outra-->
+
+                <article> <!-- Artigo que pode conter um texto completo -->
+                    <h2>Artigo de Joabe</h2>
+                    <p>Esse é um artigo escrito pelo Joabe sobre tecnologia.</p>
+                </article>
+                
+                <section> <!-- Seção da página -->
+                    <h2>Seção de Notícias</h2>
+                    <p>Últimas notícias de tecnologia direto da fonte.</p>
+                </section>
+            
+            
+          <div> <!--Aqui cria uma divisão para oque estiver entre a abertura e fechamento dessa tag-->
+            <a href="https://ead.ios.org.br" target="_blank">Clique aqui para aprender!</a> <!-- Link que abre em nova aba-->
+          </div>      
+          <br><br>
+
+          <div>
+            <article>
+                <section>
+                    <h1>Instituto da Oportunidade Social</h1>
+                    <!-- Exibindo uma imagem -->
+                    <img src="../icons/sobre-ios.webp" alt="Descrição da Imagem" width="300"> <!-- Atributo alt descreve a imagem -->
+
+                </section>
+                <br>
+                <hr>
+                <h1 id="aprender">Pronto para aprender? Se sim, só dar <b>Play!</b></h1>
+                <section>
+                    <!-- Incorporando um vídeo do YouTube -->
+                    <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/ImBKxFowqqo?si=RZE3daRew3JnyYa9" 
+                    title="Vídeo do YouTube" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                    </iframe>
+                    <br><br>
+                    <!-- Exibindo um vídeo na página -->
+                    <video width="320" height="240" controls> <!-- Controles para reproduzir, pausar e ajustar o volume -->
+                        <source src="caminho/do/video.mp4" type="video/mp4"> <!-- Definindo o vídeo e seu formato -->
+                        Seu navegador não suporta o elemento de vídeo. <!-- Mensagem caso o navegador não suporte -->
+                    </video>
+
+                </section><BR>
+
+            </article>
+          </div><br>
+          <hr>
+
+          <section> 
+            <h2 id="equipe">Vamos descobrir a idade dos integrantes</h2>
+
+                <div>
+                    <h2>Nossa Equipe de Aspirantes a Desenvolvedores Web</h2> <br>
+
+    <p>Somos uma equipe de aspirantes a desenvolvedores web, composta por quatro integrantes únicos e talentosos: Ana, Joabe, Matheus e Rafael. <br> 
+        Cada um de nós traz algo especial para o grupo, criando uma dinâmica que transforma o aprendizado em uma jornada divertida e colaborativa.</p> <br>
+
+    <div class="integrante">
+        <h3>Ana – A união do grupo!</h3>
+        <p>Ana é a cola que mantém nossa equipe unida. Sempre pronta para ajudar e mediar as ideias, ela é a voz da razão e da motivação, 
+            garantindo <br> que todos estejam no mesmo ritmo e que a nossa sintonia esteja sempre em alta.</p>
+    </div>
+
+    <div class="integrante">
+        <h3>Joabe – O comunicador!</h3>
+        <p>Joabe é aquele cara que sabe conversar. Seja resolvendo problemas ou mantendo o clima leve, ele traz a energia necessária para <br> 
+            manter a comunicação fluida e as ideias sempre frescas. Sua habilidade em lidar com pessoas é uma verdadeira vantagem para o time.</p>
+    </div>
+
+    <div class="integrante">
+        <h3>Matheus – O ancião do grupo!</h3>
+        <p>Matheus, com toda sua experiência e sabedoria, é o mentor silencioso. Apelidado carinhosamente de “o ancião”, ele está sempre com uma <br>d
+            ica certeira, um conselho valioso e uma paciência digna de um verdadeiro mestre.</p>
+    </div>
+
+    <div class="integrante">
+        <h3>Rafael Siqueira – Nosso sábio da IOS!</h3>
+        <p>Rafael é o grande conhecedor do IOS e suas manhas. Sempre antenado, ele está por dentro de todas as dicas e truques que ajudam a equipe <br> 
+            a superar qualquer desafio. Sua inteligência prática e visão estratégica são fundamentais para nossas conquistas.</p>
+    </div> <br>
+    <h2>Juntos, formamos um grupo que equilibra conhecimento, comunicação, união e muita vontade de aprender. <br> Estamos prontos para enfrentar 
+        qualquer código, sempre com bom humor e determinação!</h2> <br><br>
+
+                </div>
+            <table> <!-- Tabela simples -->
+                <caption>Tabela de idades</caption> <!--Define o titulo da minha tabela-->
+                <tr> <!-- Linha da tabela -->
+                    <th>Nome</th> <!-- Cabeçalho -->
+                    <th>Idade</th>
+                </tr>
+                <tr>
+                    <td>Rafael</td> <!-- Célula de dados -->
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>Matheus</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>?</td>
+                </tr>
+                <tr>
+                    <td>Joabe</td>
+                    <td>?</td>
+                </tr>
+            </table>
+            
+          </section><br><br><br>
+
+          <hr>
+
+          <div>
+            <h2 id="formulario">Formulário</h2>
+            <div>
+                <form action="/enviar" method="post"> <!--Fomrulário-->
+                    <!-- Campo para o Nome -->
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+                    <BR><br>
+                    <!-- Campo para Comentários -->
+                    <label for="comentarios">Comentários sobre o curso:</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escreva seus comentários aqui..."></textarea>
+                    <BR><br>
+                    <!-- Campo de Avaliação de 1 a 10 -->
+                    <label for="avaliacao">Como você avalia o curso de 1 a 10?</label>
+                    <select id="avaliacao" name="avaliacao" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="1">1 - Muito Insatisfeito</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10 - Muito Satisfeito</option>
+                    </select>
+                    <br>
+                    <!-- Campo de Opções sobre o que mais gosta -->
+                    <p>O que você mais gosta no curso?</p>
+                    <input type="checkbox" id="formularios" name="preferencias" value="formularios">
+                    <label for="formularios">Formulários</label><br>
+                    
+                    <input type="checkbox" id="tabelas" name="preferencias" value="tabelas">
+                    <label for="tabelas">Tabelas</label><br>
+                    
+                    <input type="checkbox" id="estrutura" name="preferencias" value="estrutura">
+                    <label for="estrutura">Estrutura</label><br>
+                    
+                    <input type="checkbox" id="footer" name="preferencias" value="footer">
+                    <label for="footer">Footer</label><br>
+                    
+                    <input type="checkbox" id="hiperlinks" name="preferencias" value="hiperlinks">
+                    <label for="hiperlinks">Hiperlinks</label><br>
+                    <br>
+                    <!-- Botão de Envio -->
+                    <button type="submit">Enviar!</button>
+                </form>
+                
+                </form>                
+            </div>
+          </div>
+          
+            <hr>
+        <div>
+            <footer style="display: flex; align-items: center; justify-content: center;"> <!-- Rodapé -->
+                <p>Desenvolvido com muito café ☕ pela Ana - Joabe - Matheus e Rafael &copy; 2024  - Open Source - <a href="#topo">Topo</a></p>
+            </footer>
+        </div>
+</body>
+</html>
