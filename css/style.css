@@ -74,3 +74,23 @@ h3 {
     color: #000000;
     text-align: center;
 }
+
+.text-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.img-exemplo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
